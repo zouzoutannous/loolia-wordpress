@@ -10,16 +10,37 @@
 }
 body #site-logo a img {		width: 100px; 
 }
+#main-nav a {		font-size:26px;
+ 
+}
 #main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
 	color: #ffffff; 
 }
-@media screen and (max-width: Arraypx) { /* Themify Customize Styling */
+#footerwrap {	background: none;
+	background-color: #121212; 
+}
+#footer {	
+	color: #ffffff; 
+}
+#footer a {	
+	color: #ffffff; 
+}
+#footer .footer-widgets {	
+	color: #ffffff; 
+}
+#footer .footer-widgets .widgettitle {	
+	color: #ffffff; 
+}
+#pagewrap .back-top.back-top-float, .full-section-scrolling #footerwrap .back-top .arrow-up a, .footer-horizontal-left #footerwrap .back-top .arrow-up a, .footer-horizontal-right #footerwrap .back-top .arrow-up a, .footer-left-col #footerwrap .back-top .arrow-up a, .footer-right-col #footerwrap .back-top .arrow-up a, #footer .back-top .arrow-up a {	background: none;
+	background-color: #bf1386; 
+}
+@media screen and (max-width: 1024px) { /* Themify Customize Styling */
 body #site-logo a img {		width: 100px; 
 }
- }@media screen and (max-width: Arraypx) { /* Themify Customize Styling */
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
 body #site-logo a img {		width: 100px; 
 }
- }@media screen and (max-width: 680px) { /* Themify Customize Styling */
+ }@media screen and (max-width: 600px) { /* Themify Customize Styling */
 body #site-logo a img {		width: 100px; 
 }
  }
